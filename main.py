@@ -11,10 +11,6 @@ import mediafire
 from mega import Mega
 import megafolder as megaf
 import mega
-import dat
-from mega import Mega
-import megafolder as megaf
-import mega
 import datetime
 import time
 import youtube
