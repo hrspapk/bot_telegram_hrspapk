@@ -1,5 +1,5 @@
-from pyobigram.utils import sizeof_fmt,get_file_size,createID
-from pyobigram.client import ObigramClient,inlineQueryResultArticle
+from utils import sizeof_fmt,get_file_size,createID
+from client import ObigramClient,inlineQueryResultArticle
 from MoodleClient import MoodleClient
 
 from JDatabase import JsonDatabase
@@ -8,9 +8,6 @@ import os
 import infos
 import xdlink
 import mediafire
-from megacli.mega import Mega
-import megacli.megafolder as megaf
-import megacli.mega
 import datetime
 import time
 import youtube
