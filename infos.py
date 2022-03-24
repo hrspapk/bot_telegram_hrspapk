@@ -1,4 +1,4 @@
-from pyobigram.utils import sizeof_fmt
+from utils import sizeof_fmt
 
 def createDownloading(filename,totalBits,currentBits,speed,tid=''):
     msg = '📥Descargando... \n\n'
