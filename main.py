@@ -8,6 +8,13 @@ import os
 import infos
 import xdlink
 import mediafire
+from mega import Mega
+import megafolder as megaf
+import mega
+import dat
+from mega import Mega
+import megafolder as megaf
+import mega
 import datetime
 import time
 import youtube
@@ -227,7 +234,7 @@ def onmessage(update,bot:ObigramClient):
         
 
         #AQUI EL USUARIO DE TELEGRAM
-        tl_admin_user = 'AQUI VA LE NOMBRE DE USUARIO DE TEELGRAM Q VA ADMINISTRAR EL BOT'
+        tl_admin_user = 'ThenKei'
 
         jdb = JsonDatabase('database')
         jdb.check_create()
